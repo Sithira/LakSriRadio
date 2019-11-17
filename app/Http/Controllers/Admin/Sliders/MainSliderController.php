@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Admin\Sliders;
 
 use App\Http\Controllers\Controller;
+use App\Models\MainSlider;
 use Illuminate\Http\Request;
 
 class MainSliderController extends Controller
@@ -14,7 +15,9 @@ class MainSliderController extends Controller
      */
     public function index()
     {
+        $sliders = MainSlider::all();
 
+        return view('admin.sliders.main-slider.index', compact('sliders'));
     }
 
     /**
@@ -24,7 +27,7 @@ class MainSliderController extends Controller
      */
     public function create()
     {
-        //
+        return view('admin.sliders.main-slider.create');
     }
 
     /**
@@ -35,51 +38,70 @@ class MainSliderController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $this->validate($request, []);
+
+        $url = $request->file('image')->store('sliders', 's3');
+
+        $slider = $request->all();
+        $slider['url'] = $url;
+
+        $slider = MainSlider::create($slider);
+
+        flash()->success('New post created with post id: ' . $slider->id);
+
+        return redirect()->route('sliders.index');
     }
 
     /**
      * Display the specified resource.
      *
-     * @param  int  $id
+     * @param  \App\Models\MainSlider  $mainSlider
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function show(MainSlider $mainSlider)
     {
-        //
+        return view('admin.sliders.main-slider.show', compact('mainSlider'));
     }
 
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  int  $id
+     * @param  \App\Models\MainSlider  $mainSlider
      * @return \Illuminate\Http\Response
      */
-    public function edit($id)
+    public function edit(MainSlider $mainSlider)
     {
-        //
+        return view('admin.sliders.main-slider.show', compact('mainSlider'));
     }
 
     /**
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
+     * @param  \App\Models\MainSlider  $mainSlider
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(Request $request, MainSlider $mainSlider)
     {
-        //
+        $mainSlider->update($request->all());
+
+        flash()->success('Slider item updated with id: ' . $mainSlider->id);
+
+        return redirect()->back();
     }
 
     /**
      * Remove the specified resource from storage.
      *
-     * @param  int  $id
+     * @param  \App\Models\MainSlider  $mainSlider
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
+    public function destroy(MainSlider $mainSlider)
     {
-        //
+        $mainSlider->delete();
+
+        flash()->success('Slider item deleted successfully with id: ' . $mainSlider->id);
+
+        return redirect()->route('sliders.index');
     }
 }

@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateMainSlidersTable extends Migration
+class CreatePostsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,11 +13,11 @@ class CreateMainSlidersTable extends Migration
      */
     public function up()
     {
-        Schema::create('main_sliders', function (Blueprint $table) {
+        Schema::create('posts', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->string('main_text')->nullable();
-            $table->string('secondary_text')->nullable();
-            $table->string('url');
+            $table->string('title');
+            $table->string('secondary_title')->nullable();
+            $table->text('body');
             $table->boolean('isActive')->default(1);
             $table->timestamps();
             $table->softDeletes();
@@ -31,6 +31,6 @@ class CreateMainSlidersTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('main_sliders');
+        Schema::dropIfExists('posts');
     }
 }
