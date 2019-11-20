@@ -15,7 +15,7 @@ class PostController extends Controller
      */
     public function index()
     {
-        $posts = Post::all();
+        // $posts = Post::all();
 
         return view('admin.posts.index', compact('posts'));
     }
@@ -39,7 +39,9 @@ class PostController extends Controller
     public function store(Request $request)
     {
         $this->validate($request, [
-            ''
+            "title" => "required|min:3",
+            "secondary_title" => "min:3|nullable",
+            "image" => "required|image"
         ]);
 
         $uploadedFilePath = $request->file('image')->store('posts', 's3');
@@ -91,7 +93,14 @@ class PostController extends Controller
      */
     public function update(Request $request, Post $post)
     {
+        $this->validate($request, [
+            "title" => "required|min:3",
+            "secondary_title" => "min:3|nullable"
+        ]);
+
         $post = $post->update($request->all());
+
+        flash()->success("Post with id : " . $post->id . " has been updated successfully");
 
         return view('admin.posts.show', compact('post'));
     }
@@ -105,6 +114,8 @@ class PostController extends Controller
     public function destroy(Post $post)
     {
         $post->delete();
+
+        flash()->success("Post with id : " . $post->id . " has been deleted successfully");
 
         return view('admin.posts.index');
     }

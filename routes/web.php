@@ -19,6 +19,9 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Route::resource('/admin/sliders', 'Admin\Posts\PostController');
+Route::resource('/admin/posts', 'Admin\Posts\PostController');
 
-Route::resource('/admin/posts', 'Admin\Sliders\MainSliderController');
+Route::resource('/admin/sliders', 'Admin\Sliders\MainSliderController');
+
+Route::resource('/admin/advst', 'Admin\Advertisement\AdvertisementController');
+

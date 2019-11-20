@@ -38,7 +38,11 @@ class MainSliderController extends Controller
      */
     public function store(Request $request)
     {
-        $this->validate($request, []);
+        $this->validate($request, [
+            "main_text" => "required|min:3",
+            "secondary_text" => "min:3|nullable",
+            "image" => "required|image"
+        ]);
 
         $url = $request->file('image')->store('sliders', 's3');
 
@@ -83,6 +87,12 @@ class MainSliderController extends Controller
      */
     public function update(Request $request, MainSlider $mainSlider)
     {
+
+        $this->validate($request, [
+            "main_text" => "required|min:3",
+            "secondary_text" => "min:3|nullable"
+        ]);
+
         $mainSlider->update($request->all());
 
         flash()->success('Slider item updated with id: ' . $mainSlider->id);
