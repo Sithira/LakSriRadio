@@ -27,7 +27,7 @@ class AdvertisementController extends Controller
      */
     public function create()
     {
-        return view('admin.advertisements.index');
+        return view('admin.advertisements.create');
     }
 
     /**
@@ -40,62 +40,62 @@ class AdvertisementController extends Controller
     public function store(Request $request)
     {
         $this->validate($request, [
-            'click_url',
-            'url',
-            'end_date'
+            'click_url' => 'required|url',
+            'end_date' => 'required|date',
+            'image' => 'required|image'
         ]);
 
         $fileURL = $request->file('image')->storePublicly('advst', 's3');
 
         $input = $request->all();
 
-        $request['url'] = $fileURL;
+        $input['url'] = $fileURL;
 
         Advertisement::create($input);
 
         flash()->success('Ad added successfully');
 
-        return redirect()->route('advst.index');
+        return redirect()->route('adverts.index');
     }
 
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\Advertisement  $advertisement
+     * @param  \App\Models\Advertisement  $advert
      * @return \Illuminate\Http\Response
      */
-    public function show(Advertisement $advertisement)
+    public function show(Advertisement $advert)
     {
-        return view('admin.advertisements.show', compact('advertisement'));
+        return view('admin.advertisements.show', compact('advert'));
     }
 
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\Advertisement  $advertisement
+     * @param  \App\Models\Advertisement  $advert
      * @return \Illuminate\Http\Response
      */
-    public function edit(Advertisement $advertisement)
+    public function edit(Advertisement $advert)
     {
-        return view('admin.advertisements.edit', compact('advertisement'));
+        return view('admin.advertisements.edit', compact('advert'));
     }
 
     /**
      * Update the specified resource in storage.
      *
      * @param \Illuminate\Http\Request $request
-     * @param \App\Models\Advertisement $advertisement
+     * @param \App\Models\Advertisement $advert
      * @return \Illuminate\Http\Response
      * @throws \Illuminate\Validation\ValidationException
      */
-    public function update(Request $request, Advertisement $advertisement)
+    public function update(Request $request, Advertisement $advert)
     {
         $this->validate($request, [
             'click_url',
             'end_date'
         ]);
 
-        $advertisement->update($request->all());
+        $advert->update($request->all());
 
         flash()->success('Ad successfully edited.');
 
@@ -105,16 +105,16 @@ class AdvertisementController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param \App\Models\Advertisement $advertisement
+     * @param \App\Models\Advertisement $advert
      * @return \Illuminate\Http\Response
      * @throws \Exception
      */
-    public function destroy(Advertisement $advertisement)
+    public function destroy(Advertisement $advert)
     {
-        $advertisement->delete();
+        $advert->delete();
 
         flash()->success('Ad removed successfully');
 
-        return redirect()->route('advst.index');
+        return redirect()->route('adverts.index');
     }
 }

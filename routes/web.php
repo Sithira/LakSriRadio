@@ -23,5 +23,5 @@ Route::resource('/admin/posts', 'Admin\Posts\PostController');
 
 Route::resource('/admin/sliders', 'Admin\Sliders\MainSliderController');
 
-Route::resource('/admin/advst', 'Admin\Advertisement\AdvertisementController');
+Route::resource('/admin/adverts', 'Admin\Advertisement\AdvertisementController');
 

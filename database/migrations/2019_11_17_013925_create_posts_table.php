@@ -18,6 +18,7 @@ class CreatePostsTable extends Migration
             $table->string('title');
             $table->string('secondary_title')->nullable();
             $table->text('body');
+            $table->string('url');
             $table->boolean('isActive')->default(1);
             $table->timestamps();
             $table->softDeletes();

@@ -30,5 +30,5 @@ use Illuminate\Database\Eloquent\Model;
  */
 class Post extends Model
 {
-    protected $fillable = ['title', 'secondary_title', 'url', 'isActive'];
+    protected $fillable = ['title', 'secondary_title', 'url', 'isActive', 'body'];
 }

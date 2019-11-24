@@ -1,28 +1,48 @@
-{!! Form::model($post, ['method' => 'POST', 'url' => route('posts.edit', ['id' => $post->id])]) !!}
-    <div class="form-group">
-        {!! Form::label('title') !!}
-        {!! Form::text('title', null, ['class' => 'form-control']) !!}
-    </div>
+@extends("layouts.app")
 
-    <div class="form-group">
-        {!! Form::label('title_secondary') !!}
-        {!! Form::text('title_secondary', null, ['class' => 'form-control']) !!}
-    </div>
+@section('content')
 
-    <div class="form-control">
-        {!! Form::label('body') !!}
-        {!! Form::textarea('body', null, ['class' => 'form-control']) !!}
-    </div>
+    <h1 class="h3 mb-4 text-gray-800">
+        Update Post ID: {!! $post->id !!}
+    </h1>
 
-    <div class="form-control">
-        {!! Form::label('image', 'image to upload') !!}
-        {!! Form::file('image') !!}
-    </div>
+    <div class="row">
+        <div class="col-md">
+            {!! Form::model($post, ['method' => 'PATCH', 'url' => route('posts.update', [$post->id])]) !!}
 
-    <br />
-    <br />
+            <div class="card">
+                <div class="card-header">
+                    Update post: {!! $post->title !!}
+                </div>
+                <div class="card-body">
 
-    <div class="form-control">
-        {!! Form::submit('Save') !!}
+                    @include("flash::message")
+
+                    <div class="form-group">
+                        {!! Form::label('title') !!}
+                        {!! Form::text('title', null, ['class' => 'form-control']) !!}
+                    </div>
+
+                    <div class="form-group">
+                        {!! Form::label('title_secondary') !!}
+                        {!! Form::text('title_secondary', null, ['class' => 'form-control']) !!}
+                    </div>
+
+                    <div class="form-group">
+                        {!! Form::label('body') !!}
+                        {!! Form::textarea('body', null, ['class' => 'form-control']) !!}
+                    </div>
+                </div>
+
+                <div class="card-footer">
+                    {!! Form::submit('Save', ['class' => 'btn btn-sm btn-primary']) !!}
+                </div>
+            </div>
+
+            {!! Form::close() !!}
+
+
+        </div>
+        <div class="col-md"></div>
     </div>
-{!! Form::close() !!}
+@endsection

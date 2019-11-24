@@ -1,1 +1,1 @@
-{!! $advertisement !!}
+{!! $advert !!}

@@ -33,18 +33,19 @@ class MainSliderController extends Controller
     /**
      * Store a newly created resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
+     * @param \Illuminate\Http\Request $request
      * @return \Illuminate\Http\Response
+     * @throws \Illuminate\Validation\ValidationException
      */
     public function store(Request $request)
     {
         $this->validate($request, [
             "main_text" => "required|min:3",
-            "secondary_text" => "min:3|nullable",
+            "secondary_text" => "required|min:3",
             "image" => "required|image"
         ]);
 
-        $url = $request->file('image')->store('sliders', 's3');
+        $url = $request->file('image')->storePublicly('sliders', 's3');
 
         $slider = $request->all();
         $slider['url'] = $url;
@@ -59,33 +60,34 @@ class MainSliderController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\MainSlider  $mainSlider
+     * @param  \App\Models\MainSlider  $slider
      * @return \Illuminate\Http\Response
      */
-    public function show(MainSlider $mainSlider)
+    public function show(MainSlider $slider)
     {
-        return view('admin.sliders.main-slider.show', compact('mainSlider'));
+        return view('admin.sliders.main-slider.show', compact('slider'));
     }
 
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\MainSlider  $mainSlider
+     * @param  \App\Models\MainSlider  $slider
      * @return \Illuminate\Http\Response
      */
-    public function edit(MainSlider $mainSlider)
+    public function edit(MainSlider $slider)
     {
-        return view('admin.sliders.main-slider.show', compact('mainSlider'));
+        return view('admin.sliders.main-slider.edit', compact('slider'));
     }
 
     /**
      * Update the specified resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\MainSlider  $mainSlider
+     * @param \Illuminate\Http\Request $request
+     * @param \App\Models\MainSlider $slider
      * @return \Illuminate\Http\Response
+     * @throws \Illuminate\Validation\ValidationException
      */
-    public function update(Request $request, MainSlider $mainSlider)
+    public function update(Request $request, MainSlider $slider)
     {
 
         $this->validate($request, [
@@ -93,9 +95,9 @@ class MainSliderController extends Controller
             "secondary_text" => "min:3|nullable"
         ]);
 
-        $mainSlider->update($request->all());
+        $slider->update($request->all());
 
-        flash()->success('Slider item updated with id: ' . $mainSlider->id);
+        flash()->success('Slider item updated with id: ' . $slider->id);
 
         return redirect()->back();
     }
@@ -103,14 +105,15 @@ class MainSliderController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\MainSlider  $mainSlider
+     * @param MainSlider $slider
      * @return \Illuminate\Http\Response
+     * @throws \Exception
      */
-    public function destroy(MainSlider $mainSlider)
+    public function destroy(MainSlider $slider)
     {
-        $mainSlider->delete();
+        $slider->delete();
 
-        flash()->success('Slider item deleted successfully with id: ' . $mainSlider->id);
+        flash()->success('Slider item deleted successfully with id: ' . $slider->id);
 
         return redirect()->route('sliders.index');
     }
