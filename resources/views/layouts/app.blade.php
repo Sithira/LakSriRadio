@@ -11,7 +11,8 @@
     <title>{{ config('app.name', 'Laravel') }}</title>
 
     <!-- Custom styles for this template-->
-    <link href="{!! asset("css/sb-admin-2.min.css") !!}" rel="stylesheet">
+{{--    <link href="{!! asset("admin/css/app.css") !!}" rel="stylesheet">--}}
+    <link href="{!! asset("admin/css/sb-admin-2.min.css") !!}" rel="stylesheet">
 
 </head>
 
@@ -332,8 +333,8 @@
     </div>
 </div>
 
-<script src="{!! asset("js/app.js") !!}"></script>
-<script src="{!! asset("js/sb-admin-2.min.js") !!}"></script>
+<script src="{!! asset("admin/js/admin/app.js") !!}"></script>
+<script src="{!! asset("admin/js/admin/sb-admin-2.min.js") !!}"></script>
 
 </body>
 
