@@ -81,6 +81,7 @@
                             <div data-src="{!! asset("web/images/slider/slide_8.jpg") !!}"></div>
                             <div data-src="{!! asset("web/images/slider/slide_9.jpg") !!}"></div>
                             <div data-src="{!! asset("web/images/slider/slide_10.jpg") !!}"></div>
+                            <div data-src="{!! asset("web/images/slider/slide_11.jpg") !!}"></div>
                         </div>
                     </div>
                 </div>
@@ -151,26 +152,15 @@
                             </button>
                             <div class="navbar-collapse navbar-collapse_ collapse">
                                 <ul class="nav navbar-nav sf-menu clearfix">
-                                    <li class="sub-menu sub-menu-1"><a href="#home">Home<em></em></a>
-                                        <ul>
-                                            <li><a href="index.html">RED STYLE</a></li>
-                                            <li><a href="../Black-Style/index.html">BLACK STYLE</a></li>
-
-                                        </ul>
+                                    <li><a href="#home">
+                                            Home
+                                        </a>
                                     </li>
-                                    <li><a href="#featured">FEATURED</a></li>
-                                    <li><a href="#collection">Collection</a></li>
-                                    <li class="sub-menu sub-menu-1"><a href="about.html">pages<em></em></a>
-                                        <ul>
-                                            <li><a href="about.html">ABOUT US</a></li>
-                                            <li><a href="artists.html">ARTISTS</a></li>
-                                            <li><a href="blog.html">BLOG</a></li>
-                                            <li><a href="post.html">BLOG POST</a></li>
-                                            <li><a href="channel.html">CHANNEL</a></li>
-                                            <li><a href="styles.html">STYLES</a></li>
-                                        </ul>
+                                    <li><a href="#featured">Programmes</a></li>
+                                    <li><a href="#collection">Popular</a></li>
+                                    <li><a href="about.html">pages</a>
                                     </li>
-                                    <li><a href="#testimonial">Testimonial</a></li>
+                                    <li><a href="#testimonial">About us</a></li>
                                     <li><a href="#contacts">contact us</a></li>
                                 </ul>
                             </div>
@@ -188,12 +178,13 @@
     <div id="featured">
         <div class="container">
 
-            <div class="title1 animated" data-animation="fadeInUp" data-animation-delay="100">Listen All Music On Radio
-                FM - <b>102.1</b></div>
+            <div class="title1 animated" data-animation="fadeInUp" data-animation-delay="100">
+                Listen All Music On Laksri Radio
+            </div>
 
             <div class="kand1 animated" data-animation="fadeInUp" data-animation-delay="200"></div>
 
-            <div class="title2 animated" data-animation="fadeInUp" data-animation-delay="300">FEATURED PODCASTS</div>
+            <div class="title2 animated" data-animation="fadeInUp" data-animation-delay="300">Our programs</div>
 
 
         </div>
@@ -206,11 +197,11 @@
                         <div class="slick-slider-inner">
                             <figure><img src="{!! asset('web/images/banner/banner1.jpg') !!}" alt=""
                                          class="img-responsive"></figure>
-                            <div class="caption">
-                                <div class="txt1"><span>Music - John Coltrain</span></div>
-                                <div class="txt2"><span>The Dream Of My Life</span></div>
-                                <div class="txt3"><a href="#" class="btn-default btn1">MORE EPISODES</a></div>
-                            </div>
+{{--                            <div class="caption">--}}
+{{--                                <div class="txt1"><span>Music - John Coltrain</span></div>--}}
+{{--                                <div class="txt2"><span>The Dream Of My Life</span></div>--}}
+{{--                                <div class="txt3"><a href="#" class="btn-default btn1">MORE EPISODES</a></div>--}}
+{{--                            </div>--}}
                             <div class="slick-slider-overlay"></div>
                         </div>
                     </div>
@@ -218,11 +209,11 @@
                         <div class="slick-slider-inner">
                             <figure><img src="{!! asset('web/images/banner/banner2.jpg') !!}" alt=""
                                          class="img-responsive"></figure>
-                            <div class="caption">
-                                <div class="txt1"><span>Music - Janette Colins</span></div>
-                                <div class="txt2"><span>The Music Is My Life</span></div>
-                                <div class="txt3"><a href="#" class="btn-default btn1">MORE EPISODES</a></div>
-                            </div>
+{{--                            <div class="caption">--}}
+{{--                                <div class="txt1"><span>Music - Janette Colins</span></div>--}}
+{{--                                <div class="txt2"><span>The Music Is My Life</span></div>--}}
+{{--                                <div class="txt3"><a href="#" class="btn-default btn1">MORE EPISODES</a></div>--}}
+{{--                            </div>--}}
                             <div class="slick-slider-overlay"></div>
                         </div>
                     </div>
@@ -230,11 +221,11 @@
                         <div class="slick-slider-inner">
                             <figure><img src="{!! asset('web/images/banner/banner3.jpg') !!}" alt=""
                                          class="img-responsive"></figure>
-                            <div class="caption">
-                                <div class="txt1"><span>Music - Marianna Johns</span></div>
-                                <div class="txt2"><span>Bing & Bong</span></div>
-                                <div class="txt3"><a href="#" class="btn-default btn1">MORE EPISODES</a></div>
-                            </div>
+{{--                            <div class="caption">--}}
+{{--                                <div class="txt1"><span>Music - Marianna Johns</span></div>--}}
+{{--                                <div class="txt2"><span>Bing & Bong</span></div>--}}
+{{--                                <div class="txt3"><a href="#" class="btn-default btn1">MORE EPISODES</a></div>--}}
+{{--                            </div>--}}
                             <div class="slick-slider-overlay"></div>
                         </div>
                     </div>
@@ -242,11 +233,11 @@
                         <div class="slick-slider-inner">
                             <figure><img src="{!! asset('web/images/banner/banner4.jpg') !!}" alt=""
                                          class="img-responsive"></figure>
-                            <div class="caption">
-                                <div class="txt1"><span>Music - Lino Ventura</span></div>
-                                <div class="txt2"><span>La Prima Di Casta</span></div>
-                                <div class="txt3"><a href="#" class="btn-default btn1">MORE EPISODES</a></div>
-                            </div>
+{{--                            <div class="caption">--}}
+{{--                                <div class="txt1"><span>Music - Lino Ventura</span></div>--}}
+{{--                                <div class="txt2"><span>La Prima Di Casta</span></div>--}}
+{{--                                <div class="txt3"><a href="#" class="btn-default btn1">MORE EPISODES</a></div>--}}
+{{--                            </div>--}}
                             <div class="slick-slider-overlay"></div>
                         </div>
                     </div>
@@ -254,11 +245,11 @@
                         <div class="slick-slider-inner">
                             <figure><img src="{!! asset('web/images/banner/banner5.jpg') !!}" alt=""
                                          class="img-responsive"></figure>
-                            <div class="caption">
-                                <div class="txt1"><span>Music - Amanda Geferson</span></div>
-                                <div class="txt2"><span>Non Troppo Di Piano</span></div>
-                                <div class="txt3"><a href="#" class="btn-default btn1">MORE EPISODES</a></div>
-                            </div>
+{{--                            <div class="caption">--}}
+{{--                                <div class="txt1"><span>Music - Amanda Geferson</span></div>--}}
+{{--                                <div class="txt2"><span>Non Troppo Di Piano</span></div>--}}
+{{--                                <div class="txt3"><a href="#" class="btn-default btn1">MORE EPISODES</a></div>--}}
+{{--                            </div>--}}
                             <div class="slick-slider-overlay"></div>
                         </div>
                     </div>
@@ -267,11 +258,11 @@
                         <div class="slick-slider-inner">
                             <figure><img src="{!! asset('web/images/banner/banner6.jpg') !!}" alt=""
                                          class="img-responsive"></figure>
-                            <div class="caption">
-                                <div class="txt1"><span>Music - Arturo Chiritto</span></div>
-                                <div class="txt2"><span>You Are My Life</span></div>
-                                <div class="txt3"><a href="#" class="btn-default btn1">MORE EPISODES</a></div>
-                            </div>
+{{--                            <div class="caption">--}}
+{{--                                <div class="txt1"><span>Music - Arturo Chiritto</span></div>--}}
+{{--                                <div class="txt2"><span>You Are My Life</span></div>--}}
+{{--                                <div class="txt3"><a href="#" class="btn-default btn1">MORE EPISODES</a></div>--}}
+{{--                            </div>--}}
                             <div class="slick-slider-overlay"></div>
                         </div>
                     </div>
@@ -283,17 +274,12 @@
 
         <div class="container">
 
-            <div class="title2 animated" data-animation="fadeInUp" data-animation-delay="100">POPULAR ONLINE RADIOS
+            <div class="title2 animated" data-animation="fadeInUp" data-animation-delay="100">Popular Programs List
             </div>
 
-            <div class="title3 animated" data-animation="fadeInUp" data-animation-delay="200">Lorem ipsum dolor sit amet
-                concateur non tropp sit namo, allegro sustenuto al prada bravo pensare, chicco milo naturo<br>el spresso
-                concateur non value maro noro strata.
-            </div>
+            <br/>
 
-            <br><br><br>
-
-            <div class="radios animated" data-animation="fadeInUp" data-animation-delay="300">
+            <div class="radios animated" style="filter: blur(3px)" data-animation="fadeInUp" data-animation-delay="300">
                 <div class="radio1 head clearfix">
                     <div class="sec1">#</div>
                     <div class="sec2">Program Name</div>
@@ -409,6 +395,10 @@
     <div id="collection">
         <div class="container">
 
+            <div class="title1 animated" data-animation="fadeInUp" data-animation-delay="100">
+                Download our app from appstore and playstore
+            </div>
+
             <div class="title2 animated" data-animation="fadeInUp" data-animation-delay="200">
 
             </div>
@@ -429,44 +419,9 @@
                         <div class="txt1">The Dream Of My Life</div>
                         <div class="txt2">JOHN COLTRAIN</div>
                         <div class="kand2"></div>
-                        <div class="best_list">
-                            <div class="clearfix">
-                                <div class="right">2.25 / min</div>
-                                <div class="left"><span>1</span>. The dream of my life</div>
-                            </div>
-                            <div class="clearfix">
-                                <div class="right">2.35 / min</div>
-                                <div class="left"><span>2</span>. Lorem ipsum dolor</div>
-                            </div>
-                            <div class="clearfix">
-                                <div class="right">1.35 / min</div>
-                                <div class="left"><span>3</span>. Concateur al duro</div>
-                            </div>
-                            <div class="clearfix">
-                                <div class="right">3.05 / min</div>
-                                <div class="left"><span>4</span>. Monreo del mundo</div>
-                            </div>
-                            <div class="clearfix">
-                                <div class="right">2.48 / min</div>
-                                <div class="left"><span>5</span>. Mine lorem ipusm</div>
-                            </div>
-                            <div class="clearfix">
-                                <div class="right">1.55 / min</div>
-                                <div class="left"><span>6</span>. Amoro set amondo</div>
-                            </div>
-                            <div class="clearfix">
-                                <div class="right">2.48 / min</div>
-                                <div class="left"><span>7</span>. Arturo dio pincalo seto</div>
-                            </div>
-                            <div class="clearfix">
-                                <div class="right">1.38 / min</div>
-                                <div class="left"><span>8</span>. Mango de primo</div>
-                            </div>
-                            <div class="clearfix">
-                                <div class="right">2.39 / min</div>
-                                <div class="left"><span>9</span>. My Luteccia</div>
-                            </div>
-                        </div>
+                        <div class="txt2">Now Supports</div>
+                        <div class="txt2">IOS 13 &</div>
+                        <div class="txt2">Android 10</div>
                     </div>
                 </div>
             </div>
@@ -590,32 +545,32 @@
                                                     </div>
                                                 </div>
                                             </li>
-{{--                                            <li>--}}
-{{--                                                <div class="testim">--}}
-{{--                                                    <div class="testim_inner">--}}
-{{--                                                        <div class="txt1">“Lorem ispum dolor sit amet, concateur u naro--}}
-{{--                                                            prado non troppo, amoro sit amet incorporate alido nado--}}
-{{--                                                            sempre pensare. Sansunet trifono--}}
-{{--                                                            terasimo nanto all trapo, ritenuto largo pensare.” --}}
-{{--                                                        </div>--}}
-{{--                                                        <div class="txt2">Amanda Hane Doe</div>--}}
-{{--                                                        <div class="txt3">Art Director</div>--}}
-{{--                                                    </div>--}}
-{{--                                                </div>--}}
-{{--                                            </li>--}}
-{{--                                            <li>--}}
-{{--                                                <div class="testim">--}}
-{{--                                                    <div class="testim_inner">--}}
-{{--                                                        <div class="txt1">“Lorem ispum dolor sit amet, concateur u naro--}}
-{{--                                                            prado non troppo, amoro sit amet incorporate alido nado--}}
-{{--                                                            sempre pensare. Sansunet trifono--}}
-{{--                                                            terasimo nanto all trapo, ritenuto largo pensare.” --}}
-{{--                                                        </div>--}}
-{{--                                                        <div class="txt2">Amanda Hane Doe</div>--}}
-{{--                                                        <div class="txt3">Art Director</div>--}}
-{{--                                                    </div>--}}
-{{--                                                </div>--}}
-{{--                                            </li>--}}
+                                            {{--                                            <li>--}}
+                                            {{--                                                <div class="testim">--}}
+                                            {{--                                                    <div class="testim_inner">--}}
+                                            {{--                                                        <div class="txt1">“Lorem ispum dolor sit amet, concateur u naro--}}
+                                            {{--                                                            prado non troppo, amoro sit amet incorporate alido nado--}}
+                                            {{--                                                            sempre pensare. Sansunet trifono--}}
+                                            {{--                                                            terasimo nanto all trapo, ritenuto largo pensare.” --}}
+                                            {{--                                                        </div>--}}
+                                            {{--                                                        <div class="txt2">Amanda Hane Doe</div>--}}
+                                            {{--                                                        <div class="txt3">Art Director</div>--}}
+                                            {{--                                                    </div>--}}
+                                            {{--                                                </div>--}}
+                                            {{--                                            </li>--}}
+                                            {{--                                            <li>--}}
+                                            {{--                                                <div class="testim">--}}
+                                            {{--                                                    <div class="testim_inner">--}}
+                                            {{--                                                        <div class="txt1">“Lorem ispum dolor sit amet, concateur u naro--}}
+                                            {{--                                                            prado non troppo, amoro sit amet incorporate alido nado--}}
+                                            {{--                                                            sempre pensare. Sansunet trifono--}}
+                                            {{--                                                            terasimo nanto all trapo, ritenuto largo pensare.” --}}
+                                            {{--                                                        </div>--}}
+                                            {{--                                                        <div class="txt2">Amanda Hane Doe</div>--}}
+                                            {{--                                                        <div class="txt3">Art Director</div>--}}
+                                            {{--                                                    </div>--}}
+                                            {{--                                                </div>--}}
+                                            {{--                                            </li>--}}
 
 
                                         </ul>
@@ -711,16 +666,16 @@
                         </a>
                     </div>
 
-{{--                    <p>--}}
-{{--                        Sed porttitor lectus nibh. Donec rutrum congue leo eget malesuada. Curabitur non nulla sit amet--}}
-{{--                        nisl tempus convallis quis ac lectus. Donec sollicitudin molestie malesuada.Vestibulum ac diam .--}}
-{{--                    </p>--}}
+                    {{--                    <p>--}}
+                    {{--                        Sed porttitor lectus nibh. Donec rutrum congue leo eget malesuada. Curabitur non nulla sit amet--}}
+                    {{--                        nisl tempus convallis quis ac lectus. Donec sollicitudin molestie malesuada.Vestibulum ac diam .--}}
+                    {{--                    </p>--}}
 
-                    <div class="location1">22 No. Salgadu Road, <br>Kurunagala, Sri Lanka</div>
+                    <div class="location1"><br>Kurunagala, Sri Lanka</div>
 
-                    <div class="phone1">+1 917 3386831</div>
+                    <div class="phone1">0000000</div>
 
-                    <div class="mail1"><a href="#">info@laksriradio.com</a></div>
+                    <div class="mail1"><a href="#">laksriradio@gmail.com</a></div>
 
                 </div>
                 <div class="col-sm-3">
@@ -728,12 +683,12 @@
                     <div class="bot1_title">POPULAR TAGS</div>
 
                     <ul class="tags1 clearfix">
-                        <li><a href="#">Amazing</a></li>
-                        <li><a href="#">Gridgum</a></li>
-                        <li><a href="#">Themes</a></li>
-                        <li><a href="#">Clean</a></li>
-                        <li><a href="#">Responsiveness</a></li>
-                        <li><a href="#">SEO</a></li>
+                        <li><a href="#">Songs</a></li>
+                        <li><a href="#">90's POP</a></li>
+                        <li><a href="#">Classical</a></li>
+                        <li><a href="#">70's Hits</a></li>
+                        <li><a href="#">BnS</a></li>
+                        <li><a href="#">Daddy</a></li>
                     </ul>
 
                     <div class="bot1_title">MAILING LIST</div>
@@ -765,7 +720,7 @@
                                 <div class="txt1">
                                     යන යන තැන අරන් යන්න,යන යන තැන සිංදු අහන්න,දැන් ලක් ශ්‍රි රෙඩියෝ ඔබේ සාක්කුවට
                                 </div>
-                                <div class="txt2">January 17 - 2016</div>
+                                <div class="txt2">{!! date('YYYY-mm-dd') !!}</div>
                             </div>
                         </a>
                     </div>
@@ -777,7 +732,7 @@
                                 <div class="txt1">පසුගිය දිනයන් තුල විකාශන කරනු ලබු වැඩසටහන් අපගේ youtube නාලිකාව ඔස්සේ
                                     ඔබට සවන් දිය හැක
                                 </div>
-                                <div class="txt2">February 11 - 2016</div>
+                                <div class="txt2">{!! date('YYYY-mm-dd') !!}</div>
                             </div>
                         </a>
                     </div>
@@ -789,7 +744,7 @@
                                 <div class="txt1">
                                     බෝ සිසිල වැඩසටහනට ඔබේ දායකත්වය සැපයිය හැකි යි
                                 </div>
-                                <div class="txt2">March 21 - 2016</div>
+                                <div class="txt2">{!! date('YYYY-mm-dd') !!}</div>
                             </div>
                         </a>
                     </div>
@@ -803,7 +758,7 @@
 
     <div class="bot2_wrapper">
         <div class="container">
-            Copyright © {!! date('Y') !!} Designed by: <a rel="nofollow" href="#"
+            Copyright © {!! date('Y') !!} Designed by: <a rel="nofollow" href="https://m.facebook.com/profile.php?id=100012447918046"
                                                           target="_blank"><b>VTECH</b></a>
         </div>
     </div>
