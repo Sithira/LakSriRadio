@@ -409,16 +409,12 @@
     <div id="collection">
         <div class="container">
 
-            <div class="title1 animated" data-animation="fadeInUp" data-animation-delay="100">Download it from
-                www.RadioOne.com
+            <div class="title2 animated" data-animation="fadeInUp" data-animation-delay="200">
+
             </div>
 
-            <div class="title2 animated" data-animation="fadeInUp" data-animation-delay="200">BEST VINIL COLLECTION
-            </div>
-
-            <div class="title3 animated" data-animation="fadeInUp" data-animation-delay="300">Lorem ipsum dolor sit amet
-                concateur non tropp sit namo, allegro sustenuto al prada bravo pensare, chicco milo naturo<br>el spresso
-                concateur non value maro noro strata. notn troppo.
+            <div class="title3 animated" data-animation="fadeInUp" data-animation-delay="300">
+                යන යන තැන අරන් යන්න,යන යන තැන සිංදු අහන්න,දැන් ලක් ශ්‍රි රෙඩියෝ ඔබේ සාක්කුවට
             </div>
 
             <br><br>
@@ -480,17 +476,16 @@
     <div id="collection2">
         <div class="container">
 
-            <div class="title1 animated" data-animation="fadeInUp" data-animation-delay="100">Download it from
-                www.RadioOne.com
+            <div class="title1 animated" data-animation="fadeInUp" data-animation-delay="100">
+                Listen us on LaksriRadio.com
             </div>
 
-            <div class="title2 animated" data-animation="fadeInUp" data-animation-delay="200">TOP LIST OF CD
-                COLLECTION
+            <div class="title2 animated" data-animation="fadeInUp" data-animation-delay="200">
+                YouTube
             </div>
 
-            <div class="title3 animated" data-animation="fadeInUp" data-animation-delay="300">Lorem ipsum dolor sit amet
-                concateur non tropp sit namo, allegro sustenuto al prada bravo pensare, chicco milo naturo<br>el spresso
-                concateur non value maro noro strata. notn troppo.
+            <div class="title3 animated" data-animation="fadeInUp" data-animation-delay="300">
+                පසුගිය දිනයන් තුල විකාශන කරනු ලබු වැඩසටහන් අපගේ <strong>youtube</strong> නාලිකාව ඔස්සේ ඔබට සවන් දිය හැක
             </div>
 
             <br><br>
@@ -563,8 +558,8 @@
             <div class="row">
                 <div class="col-sm-6">
                     <div class="speaker-wrapper">
-                        <img src="{!! asset('web/images/speaker.jpg') !!}" alt="" class="img-responsive">
-                        <div class="speaker-img"><img src="{!! asset('web/images/speaker.jpg') !!}" alt=""
+                        <img src="{!! asset('web/images/about-us.jpg') !!}" alt="" class="img-responsive">
+                        <div class="speaker-img"><img src="{!! asset('web/images/about-us.jpg') !!}" alt=""
                                                       class="img-responsive"></div>
                     </div>
                 </div>
@@ -573,7 +568,7 @@
                     <div id="testim_wrapper">
 
                         <div class="title1">What You say About us ?</div>
-                        <div class="title2">ලක් ශ්‍රී රේඩියෝ </div>
+                        <div class="title2">ලක් ශ්‍රී රේඩියෝ</div>
 
                         <div id="testim">
                             <div class="carousel-box">
@@ -583,39 +578,44 @@
                                             <li>
                                                 <div class="testim">
                                                     <div class="testim_inner">
-                                                        <div class="txt1">ලක් ශ්‍රී රේඩියෝ අපි 24/7 ම ඔබ සමග රැදී සිටින ගුවන්විදුලි නාලිකාවකි. කුමන
+                                                        <div class="txt1">
+                                                            ශ්‍රී ලංකාවේ සිට විකාශනය කරනු ලබන රෙඩියොවකි,සියලුම ජතීන්ට එක
+                                                            ලෙස විකාශන කාලයක් ලබා දෙමින් ජතියේ සමගිය සහජීවනය සදහා උරදෙන
+                                                            රෙඩියොවක් ලෙස කටයුතු කරයි.දුර ඇත රටක සිටින සියලුම ශ්‍රි
+                                                            ලංකිකයන් ගේ පාලුව තනිකම මෙම රෙඩියොව හරහා නැති වෙවායි අපගේ
+                                                            බලාපොරොතුව වේ.
                                                         </div>
+                                                        {{--                                                        <div class="txt2">Amanda Hane Doe</div>--}}
+                                                        {{--                                                        <div class="txt3">Art Director</div>--}}
+                                                    </div>
+                                                </div>
+                                            </li>
+{{--                                            <li>--}}
+{{--                                                <div class="testim">--}}
+{{--                                                    <div class="testim_inner">--}}
+{{--                                                        <div class="txt1">“Lorem ispum dolor sit amet, concateur u naro--}}
+{{--                                                            prado non troppo, amoro sit amet incorporate alido nado--}}
+{{--                                                            sempre pensare. Sansunet trifono--}}
+{{--                                                            terasimo nanto all trapo, ritenuto largo pensare.” --}}
+{{--                                                        </div>--}}
 {{--                                                        <div class="txt2">Amanda Hane Doe</div>--}}
 {{--                                                        <div class="txt3">Art Director</div>--}}
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="testim">
-                                                    <div class="testim_inner">
-                                                        <div class="txt1">“Lorem ispum dolor sit amet, concateur u naro
-                                                            prado non troppo, amoro sit amet incorporate alido nado
-                                                            sempre pensare. Sansunet trifono
-                                                            terasimo nanto all trapo, ritenuto largo pensare.” 
-                                                        </div>
-                                                        <div class="txt2">Amanda Hane Doe</div>
-                                                        <div class="txt3">Art Director</div>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="testim">
-                                                    <div class="testim_inner">
-                                                        <div class="txt1">“Lorem ispum dolor sit amet, concateur u naro
-                                                            prado non troppo, amoro sit amet incorporate alido nado
-                                                            sempre pensare. Sansunet trifono
-                                                            terasimo nanto all trapo, ritenuto largo pensare.” 
-                                                        </div>
-                                                        <div class="txt2">Amanda Hane Doe</div>
-                                                        <div class="txt3">Art Director</div>
-                                                    </div>
-                                                </div>
-                                            </li>
+{{--                                                    </div>--}}
+{{--                                                </div>--}}
+{{--                                            </li>--}}
+{{--                                            <li>--}}
+{{--                                                <div class="testim">--}}
+{{--                                                    <div class="testim_inner">--}}
+{{--                                                        <div class="txt1">“Lorem ispum dolor sit amet, concateur u naro--}}
+{{--                                                            prado non troppo, amoro sit amet incorporate alido nado--}}
+{{--                                                            sempre pensare. Sansunet trifono--}}
+{{--                                                            terasimo nanto all trapo, ritenuto largo pensare.” --}}
+{{--                                                        </div>--}}
+{{--                                                        <div class="txt2">Amanda Hane Doe</div>--}}
+{{--                                                        <div class="txt3">Art Director</div>--}}
+{{--                                                    </div>--}}
+{{--                                                </div>--}}
+{{--                                            </li>--}}
 
 
                                         </ul>
@@ -636,7 +636,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-6 col-sm-push-6 animated" data-animation="fadeInUp" data-animation-delay="200">
-                    <img src="{!! asset('web/images/dancer.png') !!}" alt="" class="img-responsive dancer">
+                    <img src="{!! asset('web/images/contact-us.jpg') !!}" alt="" class="img-responsive dancer">
                 </div>
                 <div class="col-sm-6 col-sm-pull-6 animated" data-animation="fadeInLeft" data-animation-delay="200">
 
@@ -647,16 +647,9 @@
                     <br>
 
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed elementum felis, a semper orci.
-                        Nam id odio vel nulla vestibulum gravida. Sed eu ex sem. Suspendisse vestibulum urna magna.
-                        Suspendisse hendrerit risus vel orci cursus sodales. Phasellus facilisis rutrum sollicitudin.
-                        Aenean sodales libero sit amet felis elementum fringilla.
-                    </p>
-
-                    <p>
-                        Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
-                        Nulla at justo non nunc varius elementum sed at elit. Nulla gravida laoreet ex nec vehicula.
-                        Praesent vitae lectus tempus, eleifend neque ac, hendrerit magna.
+                        ඔබගේ අදහස් හා යොජනා අප වෙත ලියන්න.මෙම රෙඩියොව වඩාත් පලදායි කර ගැනිමට එය මහගු උපකාරයක් වේ.ඔබ ගේ
+                        උපන්දිනය නිමිති කරගෙන හෝ මිය පරලොව ගිය ඤාතියෙකුට පින් අනුමෝදන් කිරීම පිණිස හෝ වෙනත් කිසියම්
+                        විශේෂ කරුණක් නිමිති කරගනිමින් බෝ සිසිල වැඩසටහනට ඔබේ දායකත්වය සැපයිය හැකි යි
                     </p>
 
                     <div class="social_wrapper">
@@ -718,16 +711,16 @@
                         </a>
                     </div>
 
-                    <p>
-                        Sed porttitor lectus nibh. Donec rutrum congue leo eget malesuada. Curabitur non nulla sit amet
-                        nisl tempus convallis quis ac lectus. Donec sollicitudin molestie malesuada.Vestibulum ac diam .
-                    </p>
+{{--                    <p>--}}
+{{--                        Sed porttitor lectus nibh. Donec rutrum congue leo eget malesuada. Curabitur non nulla sit amet--}}
+{{--                        nisl tempus convallis quis ac lectus. Donec sollicitudin molestie malesuada.Vestibulum ac diam .--}}
+{{--                    </p>--}}
 
-                    <div class="location1">22 No. Gridgum Valley, Website St. <br>New York, USA</div>
+                    <div class="location1">22 No. Salgadu Road, <br>Kurunagala, Sri Lanka</div>
 
                     <div class="phone1">+1 917 3386831</div>
 
-                    <div class="mail1"><a href="#">site@gridgum.com</a></div>
+                    <div class="mail1"><a href="#">info@laksriradio.com</a></div>
 
                 </div>
                 <div class="col-sm-3">
@@ -746,7 +739,9 @@
                     <div class="bot1_title">MAILING LIST</div>
 
                     <div class="newsletter_block">
-                        <div class="txt1">Lorem ipsum dolor sit amet concateur non troppo sustenuto largo pensare.</div>
+                        <div class="txt1">
+
+                        </div>
                         <div class="newsletter-wrapper clearfix">
                             <form class="newsletter" action="javascript:void(0);">
                                 <input type="text" name="s" value='Email Address'
@@ -767,8 +762,8 @@
                         <a href="#" class="clearfix">
                             <figure><img src="{!! asset('web/images/latest01.jpg') !!}" alt=""></figure>
                             <div class="caption">
-                                <div class="txt1">Lorem ipsum dolor sit amet, concateur un otto bravo netto, sustenuto
-                                    non troppo.
+                                <div class="txt1">
+                                    යන යන තැන අරන් යන්න,යන යන තැන සිංදු අහන්න,දැන් ලක් ශ්‍රි රෙඩියෝ ඔබේ සාක්කුවට
                                 </div>
                                 <div class="txt2">January 17 - 2016</div>
                             </div>
@@ -779,8 +774,8 @@
                         <a href="#" class="clearfix">
                             <figure><img src="{!! asset('web/images/latest02.jpg') !!}" alt=""></figure>
                             <div class="caption">
-                                <div class="txt1">Lorem ipsum dolor sit amet, concateur un otto bravo netto, sustenuto
-                                    non troppo.
+                                <div class="txt1">පසුගිය දිනයන් තුල විකාශන කරනු ලබු වැඩසටහන් අපගේ youtube නාලිකාව ඔස්සේ
+                                    ඔබට සවන් දිය හැක
                                 </div>
                                 <div class="txt2">February 11 - 2016</div>
                             </div>
@@ -791,8 +786,8 @@
                         <a href="#" class="clearfix">
                             <figure><img src="{!! asset('web/images/latest03.jpg') !!}" alt=""></figure>
                             <div class="caption">
-                                <div class="txt1">Lorem ipsum dolor sit amet, concateur un otto bravo netto, sustenuto
-                                    non troppo.
+                                <div class="txt1">
+                                    බෝ සිසිල වැඩසටහනට ඔබේ දායකත්වය සැපයිය හැකි යි
                                 </div>
                                 <div class="txt2">March 21 - 2016</div>
                             </div>
@@ -808,7 +803,7 @@
 
     <div class="bot2_wrapper">
         <div class="container">
-            Copyright © {!! date('Y') !!} Designed by: <a rel="nofollow" href="https://gridgum.com/"
+            Copyright © {!! date('Y') !!} Designed by: <a rel="nofollow" href="#"
                                                           target="_blank"><b>VTECH</b></a>
         </div>
     </div>
