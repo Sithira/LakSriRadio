@@ -1,22 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="065e396f-7ead-427d-8742-0d14862179f9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/web/images/banner/banner1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/web/images/banner/banner2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/web/images/banner/banner3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/web/images/banner/banner4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/web/images/banner/banner5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/web/images/banner/banner6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/web/index.blade.php" afterDir="false" />
+    <list default="true" id="065e396f-7ead-427d-8742-0d14862179f9" name="Default Changelist" comment="Added new changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/admin/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/sb-admin-2.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/admin/css/sb-admin-2.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/admin/js/admin/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/sb-admin-2.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/admin/js/admin/sb-admin-2.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/fonts/fontawesome-webfont.eot_v=4.5.0" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/fonts/fontawesome-webfont.ttf_v=4.5.0" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/fonts/fontawesome-webfont.woff2_v=4.5.0" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web/fonts/fontawesome-webfont.woff_v=4.5.0" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/web/index.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -68,17 +59,28 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/web/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="602" column="23" selection-start-line="602" selection-start-column="23" selection-end-line="602" selection-end-column="23" />
-              <folding>
-                <element signature="n#style#0;n#audio#0;n#div#0;n#div#6;n#div#2;n#div#2;n#div#2;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="298">
+              <caret line="97" column="60" selection-start-line="97" selection-start-column="60" selection-end-line="97" selection-end-column="60" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/web/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="268">
+              <caret line="362" column="8" selection-start-line="362" selection-start-column="8" selection-end-line="362" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/web/images/contact-us.jpg">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -106,18 +108,11 @@
               <caret line="28" column="62" selection-end-line="868" selection-end-column="7" />
               <folding>
                 <element signature="n#style#0;n#audio#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#13541#13547#1" expanded="true" />
                 <element signature="n#style#0;n#audio#0;n#div#0;n#div#6;n#div#1;n#div#2;n#div#2;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#audio#0;n#div#0;n#div#6;n#div#2;n#div#2;n#div#2;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#audio#0;n#div#0;n#div#6;n#div#3;n#div#2;n#div#2;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#audio#0;n#div#0;n#div#6;n#div#4;n#div#2;n#div#2;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#audio#0;n#div#0;n#div#6;n#div#5;n#div#2;n#div#2;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#21089#21095#0" expanded="true" />
-                <element signature="e#21096#21102#0" expanded="true" />
-                <element signature="e#22023#22029#0" expanded="true" />
-                <element signature="e#22030#22036#0" expanded="true" />
-                <element signature="e#22952#22958#0" expanded="true" />
-                <element signature="e#22959#22965#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -133,6 +128,15 @@
       <find>logo.png</find>
       <find>top2_wrapper</find>
       <find>Jesica</find>
+      <find>About Us</find>
+      <find>Contact us</find>
+      <find>Contact For</find>
+      <find>Home</find>
+      <find>Address</find>
+      <find>vtech</find>
+      <find>John Coltrain</find>
+      <find>Popular</find>
+      <find>Radio chanel: My Funny Valentine</find>
     </findStrings>
     <replaceStrings>
       <replace>logo_lk.png</replace>
@@ -161,6 +165,7 @@
         <option value="$PROJECT_DIR$/resources/views/web/Red-Style/index.html" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/public/web/css/style.css" />
         <option value="$PROJECT_DIR$/resources/views/web/index.blade.php" />
       </list>
     </option>
@@ -317,7 +322,7 @@
               <item name="LakSriRadio" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="fonts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LakSriRadio" type="b2602c69:ProjectViewProjectNode" />
@@ -427,7 +432,28 @@
       <workItem from="1574435146072" duration="2383000" />
       <workItem from="1574494228387" duration="101000" />
       <workItem from="1574512832068" duration="25579000" />
+      <workItem from="1574822610232" duration="467000" />
+      <workItem from="1574866748119" duration="10000" />
+      <workItem from="1574906211470" duration="1567000" />
+      <workItem from="1574949491041" duration="839000" />
+      <workItem from="1574961919090" duration="2502000" />
+      <workItem from="1574993906359" duration="568000" />
     </task>
+    <task id="LOCAL-00001" summary="Added new images">
+      <created>1574909493035</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1574909493035</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added new changes">
+      <created>1574964692569</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1574964692569</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -439,16 +465,16 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25680000" />
+    <option name="totallyTimeSpent" value="31633000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18849841" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18884121" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Database Console" weight="0.26950353" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -460,11 +486,12 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.30091184" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.28674698" />
+      <window_info anchor="bottom" id="Database Console" order="12" weight="0.26950353" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.14270501" />
+      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.14020029" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -502,6 +529,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added new images" />
+    <MESSAGE value="Added new changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added new changes" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/block.rnc">
@@ -663,42 +695,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/web/Red-Style/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="62" selection-end-line="868" selection-end-column="7" />
-          <folding>
-            <element signature="n#style#0;n#audio#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#13541#13547#1" expanded="true" />
-            <element signature="n#style#0;n#audio#0;n#div#0;n#div#6;n#div#1;n#div#2;n#div#2;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#audio#0;n#div#0;n#div#6;n#div#2;n#div#2;n#div#2;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#audio#0;n#div#0;n#div#6;n#div#3;n#div#2;n#div#2;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#audio#0;n#div#0;n#div#6;n#div#4;n#div#2;n#div#2;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#audio#0;n#div#0;n#div#6;n#div#5;n#div#2;n#div#2;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#21089#21095#0" expanded="true" />
-            <element signature="e#21096#21102#0" expanded="true" />
-            <element signature="e#22023#22029#0" expanded="true" />
-            <element signature="e#22030#22036#0" expanded="true" />
-            <element signature="e#22952#22958#0" expanded="true" />
-            <element signature="e#22959#22965#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/web/js/jquery.ui.totop.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -711,13 +707,56 @@
     <entry file="file://$PROJECT_DIR$/public/web/images/logo3.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/phrase.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/web/images/contact-us.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/web/Red-Style/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="62" selection-end-line="868" selection-end-column="7" />
+          <folding>
+            <element signature="n#style#0;n#audio#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#audio#0;n#div#0;n#div#6;n#div#1;n#div#2;n#div#2;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#audio#0;n#div#0;n#div#6;n#div#2;n#div#2;n#div#2;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#audio#0;n#div#0;n#div#6;n#div#3;n#div#2;n#div#2;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#audio#0;n#div#0;n#div#6;n#div#4;n#div#2;n#div#2;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#audio#0;n#div#0;n#div#6;n#div#5;n#div#2;n#div#2;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/web/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="362" column="8" selection-start-line="362" selection-start-column="8" selection-end-line="362" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/web/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="602" column="23" selection-start-line="602" selection-start-column="23" selection-end-line="602" selection-end-column="23" />
-          <folding>
-            <element signature="n#style#0;n#audio#0;n#div#0;n#div#6;n#div#2;n#div#2;n#div#2;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="298">
+          <caret line="97" column="60" selection-start-line="97" selection-start-column="60" selection-end-line="97" selection-end-column="60" />
         </state>
       </provider>
     </entry>

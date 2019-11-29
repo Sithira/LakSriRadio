@@ -92,18 +92,18 @@
                 <div class="song1_inner clearfix">
                     <div class="song1 clearfix">
                         <div class="left clearfix">
-                            <figure><img src="{!! asset('web/images/song1.jpg') !!}" alt=""></figure>
+                            <figure><img src="{!! asset('web/images/others/0000.png') !!}" alt=""></figure>
                             <div class="caption">
-                                <div class="txt1">Radio chanel: My Funny Valentine</div>
-                                <div class="txt2">Manhattan Jazz Quartett</div>
+                                <div class="txt1">Live: LakSriRadio</div>
+                                <div class="txt2">Live Stream</div>
                             </div>
                         </div>
                         <div class="right">
                             <div class="audio1">
                                 <audio class="audio" preload="none" style="width: 100%; visibility: hidden;"
                                        controls="controls">
-                                    <source type="audio/mpeg" src="audio/song1.mp3"/>
-                                    <a href="audio/song1.mp3">audio/song1.mp3</a>
+                                    <source type="audio/mpeg" src="http://cressida.shoutca.st:8813/stream?type=http&nocache=1"/>
+                                    <a href="http://cressida.shoutca.st:8813/stream?type=http&nocache=1">Stream</a>
                                 </audio>
                             </div>
                         </div>
@@ -157,11 +157,11 @@
                                         </a>
                                     </li>
                                     <li><a href="#featured">Programmes</a></li>
-                                    <li><a href="#collection">Popular</a></li>
-                                    <li><a href="about.html">pages</a>
+                                    <li><a href="#collection">Apps</a></li>
+                                    <li><a href="#apps">Pages</a>
                                     </li>
                                     <li><a href="#testimonial">About us</a></li>
-                                    <li><a href="#contacts">contact us</a></li>
+                                    <li><a href="#contacts">Contact us</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -416,10 +416,10 @@
                 <div class="col-sm-3 animated" data-animation="fadeInRight" data-animation-delay="200">
 
                     <div class="best0">
-                        <div class="txt1">The Dream Of My Life</div>
-                        <div class="txt2">JOHN COLTRAIN</div>
-                        <div class="kand2"></div>
-                        <div class="txt2">Now Supports</div>
+{{--                        <div class="txt1">The Dream Of My Life</div>--}}
+{{--                        <div class="txt2">JOHN COLTRAIN</div>--}}
+{{--                        <div class="kand2"></div>--}}
+                        <div class="txt1">Now Supports</div>
                         <div class="txt2">IOS 13 &</div>
                         <div class="txt2">Android 10</div>
                     </div>
@@ -591,7 +591,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-6 col-sm-push-6 animated" data-animation="fadeInUp" data-animation-delay="200">
-                    <img src="{!! asset('web/images/contact-us.jpg') !!}" alt="" class="img-responsive dancer">
+                    <img src="{!! asset('web/images/others/dancer.png') !!}" alt="" class="img-responsive dancer">
                 </div>
                 <div class="col-sm-6 col-sm-pull-6 animated" data-animation="fadeInLeft" data-animation-delay="200">
 
