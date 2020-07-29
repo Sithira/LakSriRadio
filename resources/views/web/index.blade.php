@@ -102,7 +102,7 @@
                             <div class="audio1">
                                 <audio class="audio" preload="none" style="width: 100%; visibility: hidden;"
                                        controls="controls">
-                                    <source type="audio/mpeg" src="http://142.4.217.133:9735/stream?type=http&nocache=1"/>
+                                    <source type="audio/mpeg" src="http://perseus.shoutca.st:8103/stream?type=http&nocache=169"/>
                                     <a href="http://perseus.shoutca.st:8103/stream?type=http&nocache=169">Stream</a>
                                 </audio>
                             </div>
