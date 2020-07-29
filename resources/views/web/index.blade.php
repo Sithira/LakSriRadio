@@ -103,7 +103,7 @@
                                 <audio class="audio" preload="none" style="width: 100%; visibility: hidden;"
                                        controls="controls">
                                     <source type="audio/mpeg" src="http://142.4.217.133:9735/stream?type=http&nocache=1"/>
-                                    <a href="http://142.4.217.133:9735/stream?type=http&nocache=1">Stream</a>
+                                    <a href="http://perseus.shoutca.st:8103/stream?type=http&nocache=169">Stream</a>
                                 </audio>
                             </div>
                         </div>
